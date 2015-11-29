@@ -67,3 +67,24 @@ header a {
    text-align: center;
    color: #fff;
  }
+
+ .meheszet {
+   background-image: url(../images/meheszet.png);
+   /*background-size: cover;*/
+   background-repeat: no-repeat;
+ }
+
+ .meheszet aside {
+   width: 50%;
+ }
+
+ .mezek {
+   background-image: url(../images/mezek_background.jpg);
+   /*background-size: cover;*/
+   background-position: right;
+   background-repeat: no-repeat;
+ }
+
+ .mezek aside {
+   width: 50%;
+ }
