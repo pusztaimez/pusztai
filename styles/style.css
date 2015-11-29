@@ -7,42 +7,62 @@ html {
   box-sizing: inherit;
 }
 
-.header {
-  background: #ff9d34;
-  background-image: url(../images/img_lepkek.png);
-  background-size: cover;
-  background-position: center center;
-  height: 500px;
-  xxxheight: 100vh;
-  font-family: 'Open Sans' Helvetica, Arial;
-}
 
 html {
   font-size: 62.5%;
 }
+
 body {
   font: 1.6rem/1.4 'Libre Baskerville', serif;
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', arial, sans-serif;
 }
 
-header h1 {
-  text-align: center;
+header {
+  background: #ff9d34;
   margin: 0;
+  background-image: url(../images/img_lepkek.png);
+  background-size: cover;
+  background-position: center center;
+  height: 60vh;
 }
 
-header ul {
+
+header img {
+  padding: 20px;
+}
+
+nav {
+	background-color: rgba(206, 73, 0, 0.6);
+  font-family: 'Open Sans';
+  text-transform: uppercase;
   text-align: center;
+	margin: 0;
+  position: fixed; top: 0; left: 0;
+  z-index:999;
+	width: 100%;
+}
+
+
+header nav ul {
   list-style: none;
-  text-decoration: none;
-  color: #fff;
-  padding: 0;
   margin: 0;
   border-top: 1px;
 }
 
-header li {
+header nav li {
+  font-family: 'Open Sans', Helvetica, Arial;
   border-bottom: 2px solid #fff;
-
+  text-decoration: none;
 }
+
+header a {
+   display: block;
+   padding: .5em;
+   text-decoration: none;
+   text-transform: uppercase;
+   text-align: center;
+   color: #fff;
+ }
