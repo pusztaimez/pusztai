@@ -79,9 +79,15 @@ header a {
      display: flex;
    }
 
-   nav li {
-     border: none;
+   nav {
+     height: 70px;
    }
+
+   header nav li {
+     vertical-align: center;
+     border-bottom: none;
+   }
+
 
  .content-wrapper {
    width: 80%;
@@ -94,6 +100,12 @@ header a {
    background-repeat: no-repeat;
    min-height: 40vh;
    background-color: #f5f6f8;
+   padding: 40px;
+ }
+
+ .meheszet div {
+   max-width: 70%;
+   float:right;
  }
 
  .mezek {
