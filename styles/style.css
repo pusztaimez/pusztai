@@ -89,12 +89,17 @@ header a {
 
  .meheszet {
    background-image: url(../images/meheszet.png);
-   /*background-size: cover;*/
+   background-size: contain;
    background-repeat: no-repeat;
+<<<<<<< HEAD
  }
 
  .meheszet aside {
 
+=======
+   min-height: 40vh;
+   background-color: #f5f6f8;
+>>>>>>> origin/master
  }
 
  .mezek {
@@ -104,6 +109,7 @@ header a {
    background-repeat: no-repeat;
  }
 
- .mezek aside {
-   width: 50%;
+ .content-wrapper {
+   width: 80%;
+   margin: 0 auto;
  }
