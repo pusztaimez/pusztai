@@ -27,7 +27,6 @@ header {
   /*background-size: cover;*/
   background-position: center center;
   height: 60vh;
-
 }
 
 
@@ -69,30 +68,61 @@ header a {
    color: #fff;
  }
 
- @media screen and (min-width:31.25rem) {
-   header {
-     display: flex;
-     justify-content: space-between;
-   }
+ .meheszet {
+   background-image: url(../images/meheszet.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   min-height: 40vh;
+   background-color: #f5f6f8;
+   padding-top: 40px;
+ }
 
-   header ul {
+
+ @media screen and (min-width:31.25rem) {
+
+
+   header nav ul {
      display: flex;
+     max-width: 1000px;
+     justify-content: center;
+     align-self: flex-end;
+
    }
 
    nav {
+     display: flex;
      height: 70px;
    }
 
-   header nav li {
-     vertical-align: center;
-     border-bottom: none;
-   }
 
+
+
+header nav li {
+    border-bottom: none;
+    line-height: 70px;
+}
+
+
+header a {
+  padding: 0 .5em;
+}
 
  .content-wrapper {
    width: 80%;
    margin: 0 auto;
  }
+
+ .header {
+   width: 80%;
+   display: flex;
+   justify-content: space-between;
+   margin: 0 auto;
+ }
+
+.logo {
+   align-self: center;
+ }
+
 
  .meheszet {
    background-image: url(../images/meheszet.png);
@@ -113,9 +143,4 @@ header a {
    /*background-size: cover;*/
    background-position: right;
    background-repeat: no-repeat;
- }
-
- .content-wrapper {
-   width: 80%;
-   margin: 0 auto;
  }
