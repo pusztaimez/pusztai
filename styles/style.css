@@ -77,7 +77,118 @@ header a {
    padding-top: 40px;
  }
 
+.profilmessage {
+  display: block;
+  width: 100%;
+  clear: both;
+  padding-top: 50px;
+}
 
+.cim {
+float: left;
+width: 50%;
+}
+
+.cim .kep {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.cim .profil {
+  display: inline-block;
+}
+
+.cim .profil .face {
+  display: block;
+  float: left;
+  margin-right: 30px;
+}
+
+.cim .profil p {
+  float: left;
+  font-size: 0.8em;
+  margin-top: 0;
+}
+
+.cim .profil p b {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.form {
+  float: left;
+  width: 50%;
+  background-color: #ff9d34;
+  border-radius: 10px;
+  margin-top: 80px;
+}
+
+.messagesend {
+  border: none;
+  padding: 30px;
+  text-transform: uppercase;
+}
+
+.messagesend label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.4rem;
+}
+
+
+.messagesend .twoinarow {
+  float: left;
+  width: 50%;
+}
+
+.messagesend .twoinarow.left {
+padding-right: 10px;
+}
+
+.messagesend .twoinarow.right {
+padding-left: 10px;
+}
+
+.messagesend .twoinarow input,
+.messagesend .oneinarow textarea {
+width: 100%;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+
+
+.messagesend .oneinarow {
+  clear:both;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.messagesend .button {
+  padding-top: 20px;
+}
+
+.messagesend .button input {
+  background-color: #ff9d34;
+  border: 1px solid #270f0d;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  font-family: 'Open-Sans', sans-serif;
+  padding: 8px 30px;
+  text-transform: uppercase;
+}
+
+footer {
+  clear: both;
+  display: inline-block;
+  background-color: #270f0d;
+  height: 200px;
+  width: 100%;
+  margin-top: 20px;
+
+}
  @media screen and (min-width:31.25rem) {
 
 
