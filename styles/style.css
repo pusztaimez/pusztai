@@ -20,6 +20,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', arial, sans-serif;
 }
 
+.content-wrapper {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 header {
   background: #ff9d34;
   margin: 0;
@@ -28,8 +34,6 @@ header {
   background-position: center center;
   height: 60vh;
 }
-
-
 
 nav {
 	background-color: rgba(206, 73, 0, 0.6);
@@ -41,7 +45,6 @@ nav {
   z-index:999;
 	width: 100%;
 }
-
 
 header nav ul {
   list-style: none;
@@ -86,8 +89,7 @@ header label {
   cursor: pointer;
 }
  .meheszet {
-   background-image: url(../images/meheszet.png);
-   background-size: contain;
+   background-image: url(../images/meheszet.jpg);
    background-repeat: no-repeat;
    min-height: 40vh;
    background-color: #f5f6f8;
@@ -96,9 +98,8 @@ header label {
 
  .mezek {
    background-image: url(../images/mezek_background.jpg);
-   /*background-size: cover;*/
    background-position: top;
-   background-size: 100%;
+   background-size: 70%;
    background-repeat: no-repeat;
  }
 
@@ -115,15 +116,16 @@ header label {
 .tovabb span {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 10px;
   font: 1.2rem 'Open-Sans', sans-serif;
   text-transform: uppercase;
 
 }
+
 .tovabb span a {
   color: #351011;
   text-decoration: none;
 }
+
 
 .tovabb span a:first-child ~ a {
   display: none;
@@ -133,12 +135,21 @@ header label {
   color:#fd3406;
   text-decoration: none;
 }
+
 .tovabb img {
   vertical-align: middle;
 }
- figure > img {
-   width: 100%;
- }
+
+figure > img {
+  width: 100%;
+}
+
+figcaption.name {
+  font-style: italic;
+  font-size: 1.7rem;
+}
+
+
 .profilmessage {
   display: block;
   width: 100%;
@@ -198,7 +209,6 @@ width: 50%;
   font-size: 1.4rem;
 }
 
-
 .messagesend .twoinarow {
   float: left;
   width: 50%;
@@ -219,8 +229,6 @@ padding: 5px;
 border: 1px solid #ccc;
 border-radius: 4px;
 }
-
-
 
 .messagesend .oneinarow {
   clear:both;
@@ -255,7 +263,11 @@ footer {
   margin-top: 20px;
 
 }
- @media screen and (min-width:31.25rem) {
+
+
+
+
+@media screen and (min-width:31.25rem) {
 
 
    header nav ul {
@@ -281,10 +293,6 @@ footer {
       padding: 0 .5em;
     }
 
-     .content-wrapper {
-       width: 80%;
-       margin: 0 auto;
-     }
 
      .header {
        width: 80%;
@@ -297,7 +305,7 @@ footer {
        align-self: center;
      }
 
-
+/*
      .meheszet {
        background-image: url(../images/meheszet.png);
        background-size: contain;
@@ -306,10 +314,10 @@ footer {
        background-color: #f5f6f8;
        padding: 40px;
      }
+     */
 
-     .meheszet .bee {
-       max-width: 70%;
-       float:right;
+     .meheszet-content {
+       margin-left: 500px;
      }
 
      .mezek {
@@ -328,23 +336,23 @@ footer {
        display: flex;
        flex-flow: row;
        flex-wrap: wrap;
+       justify-content: flex-start;
        padding: 0;
-       margin: 0;
+       margin: -10;
      }
 
      figure {
-       margin: auto;
+       margin: 10px;
        padding: 0;
+       flex-basis: 28%;
      }
 
-     figure:first-child {
-       margin-left: 0;
-     }
+/*
 
      figure > img {
        width: 190px;
      }
-
+*/
      .form {
        float: left;
        width: 50%;
@@ -352,3 +360,34 @@ footer {
        border-radius: 10px;
        margin-top: 80px;
      }
+
+}
+
+
+@media screen and (min-width: 62rem) {
+  figure {
+    margin: 10px;
+    padding: 0;
+    flex-basis: 25%;
+  }
+/*
+  figure > img {
+    width: 190px;
+  }
+*/
+}
+
+@media screen and (min-width:79rem) {
+
+  figure {
+    margin: 10px;
+    padding: 0;
+    flex-basis: 20%;
+  }
+
+/*
+  figure > img {
+    width: 190px;
+  }
+*/
+}
