@@ -24,7 +24,7 @@ header {
   background: #ff9d34;
   margin: 0;
   background-image: url(../images/img_lepkek.png);
-  /*background-size: cover;*/
+  background-size: cover;
   background-position: center center;
   height: 60vh;
 }
@@ -89,6 +89,31 @@ header a {
    padding-top: 250px;
  }
 
+ .tovabb {
+  vertical-align: middle;
+  clear: both;
+  float: none;
+ }
+
+.tovabb span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  font: 1.2rem 'Open-Sans', sans-serif;
+  text-transform: uppercase;
+
+}
+.tovabb span a {
+  color: #351011;
+  text-decoration: none;
+}
+.tovabb span a:hover {
+  color:#fd3406;
+  text-decoration: none;
+}
+.tovabb img {
+  vertical-align: middle;
+}
  figure > img {
    width: 100%;
  }
@@ -133,10 +158,10 @@ width: 50%;
 
 .form {
   float: left;
-  width: 50%;
+  width: 100%;
   background-color: #ff9d34;
   border-radius: 10px;
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
 .messagesend {
@@ -193,6 +218,10 @@ border-radius: 4px;
   font-family: 'Open-Sans', sans-serif;
   padding: 8px 30px;
   text-transform: uppercase;
+}
+
+.messagesend .button input:hover {
+  background-color:#b7732b;
 }
 
 footer {
@@ -256,7 +285,7 @@ footer {
        padding: 40px;
      }
 
-     .meheszet div {
+     .meheszet .bee {
        max-width: 70%;
        float:right;
      }
@@ -292,4 +321,12 @@ footer {
 
      figure > img {
        width: 190px;
+     }
+
+     .form {
+       float: left;
+       width: 50%;
+       background-color: #ff9d34;
+       border-radius: 10px;
+       margin-top: 80px;
      }
