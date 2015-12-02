@@ -71,12 +71,16 @@ header a {
    color: #fff;
  }
 
+.flex_container {
+  display: flex;
+  flex-flow: column;
+}
+
+
  .meheszet {
-   background-image: url(../images/meheszet.jpg);
-   background-repeat: no-repeat;
-   min-height: 40vh;
-   background-color: #f5f6f8;
-   padding-top: 40px;
+   background-color: #fef5e8;
+   padding-top: 50px;
+   padding-bottom: 50px;
  }
 
  .mezek {
@@ -84,6 +88,7 @@ header a {
    background-position: top;
    background-size: 70%;
    background-repeat: no-repeat;
+   padding-top: 50px;
  }
 
  .cim {
@@ -283,26 +288,19 @@ footer {
        align-self: center;
      }
 
-/*
-     .meheszet {
-       background-image: url(../images/meheszet.png);
-       background-size: contain;
-       background-repeat: no-repeat;
-       min-height: 40vh;
-       background-color: #f5f6f8;
-       padding: 40px;
-     }
-     */
 
-     .meheszet-content {
-       margin-left: 500px;
+
+     .mezek > p {
+       padding-right: 250px;
      }
+
+
 
      .mezek {
        background-image: url(../images/mezek_background.jpg);
        /*background-size: cover;*/
-       background-position: top right;
-       background-size: auto;
+       background-position: right top;
+       background-size: 250px auto;
        background-repeat: no-repeat;
      }
 
@@ -320,9 +318,11 @@ footer {
      }
 
      figure {
-       margin: 10px;
-       padding: 0;
-       flex-basis: 28%;
+       margin: 0;
+       padding: 10px;
+       flex-basis: 50%;
+       max-width: 50%;
+       flex-grow: 1;
      }
 
 /*
@@ -341,26 +341,50 @@ footer {
 
 }
 
+@media screen and (min-width: 42rem) {
+  figure {
+    margin: 0;
+    padding: 10px;
+    flex-basis: 33.3%;
+    max-width: 33.3%;
+  }
+}
 
 @media screen and (min-width: 62rem) {
   figure {
-    margin: 10px;
-    padding: 0;
+    margin: 0;
+    padding: 10px;
     flex-basis: 25%;
+    max-width: 25%;
   }
+
+  .meheszet {
+    background-image: url(../images/meheszet.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 40vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+   .meheszet-content {
+     padding-left: 380px;
+   }
+
 /*
   figure > img {
     width: 190px;
   }
 */
-}
+
 
 @media screen and (min-width:79rem) {
 
   figure {
-    margin: 10px;
-    padding: 0;
+    margin: 0;
+    padding: 10px;
     flex-basis: 20%;
+    max-width: 20%;
   }
 
 /*
