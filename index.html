@@ -11,14 +11,17 @@
   <meta property="og:image" content="http://momecode.github.io/mantecol/valami.jpg">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/swipebox.min.css">
 </head>
 <body>
   <header>
-    <nav id="menuContainer">
-      <div class="header">
-        <a class="logo" href="#">
-          <img src="images/pusztai_logo.png" alt="Pusztai mézek">
-        </a>
+    <input type="checkbox" id="hambi" checked/>
+    <label for="hambi" id="menuToggle">☰</label>
+      <nav id="menuContainer">
+        <div class="header">
+          <a class="logo" href="#">
+            <img src="images/pusztai_logo.png" alt="Pusztai mézek">
+          </a>
         <ul>
           <li><a href="">Mézeink</a></li>
           <li><a href="">Szörpök</a></li>
@@ -36,7 +39,28 @@
           <img src="images/cim_meheszetrol.png" alt="Méhészetről">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ornare tellus laoreet semper tristique. Mauris vitae feugiat justo. Fusce ornare efficitur erat vel lacinia. Etiam aliquam arcu at magna pellentesque, porta convallis ipsum pretium.
           </p>
-          <div class="tovabb"><span><a id="gallery" href="">A méhészet képekben </a></span><img src="images/nyil.png" alt="Tovább"></div>
+          <div class="tovabb">
+            <span>
+              <a href="images/galery/kep1.jpg" class="swipebox" title="méz">
+              A méhészet képekben
+              </a>
+              <a href="images/galery/kep2.jpg" class="swipebox" title="méz">
+              A méhészet képekben
+              </a>
+              <a href="images/galery/kep3.jpg" class="swipebox" title="méz">
+              A méhészet képekben
+              </a>
+              <a href="images/galery/kep4.jpg" class="swipebox" title="méz">
+              A méhészet képekben
+              </a>
+              <a href="images/galery/kep5.jpg" class="swipebox" title="méz">
+              A méhészet képekben
+              </a>
+              <a href="images/galery/kep7.jpg" class="swipebox" title="méz">
+              A méhészet képekben
+              </a>
+            </span>
+            <img src="images/nyil.png" alt="Tovább"></div>
         </div>
       </div>
     </section>
@@ -141,7 +165,17 @@
   <footer>
 vahgsusv
   </footer>
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/jquery.swipebox.min.js"></script>
+    <!--<script src="scripts/script.js"></script>*/-->
 
-    <script src="scripts/script.js"></script>
+    <script type="text/javascript">
+    ;( function( $ ) {
+
+      $( '.swipebox' ).swipebox();
+
+    } )( jQuery );
+    </script>
+
   </body>
   </html>
