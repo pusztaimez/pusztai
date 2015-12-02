@@ -98,45 +98,44 @@
           </div>
       </section>
     </div>
-  </main>
-  <section class="content-wrapper profilmessage">
-    <section class="kapcsolat">
-      <img class="kep" src="images/cim_kapcsolat.png" alt="">
-      <div class="profil">
-        <img class="face" src="images/profilkep.png" alt="">
-        <p class=""><b>Kovács Krisztina</b><br/>
-          Pusztai mézek méhészet<br/>
-          Cím: 2655 Pusztavám, Pusztai utca 22.<br/>
-          Telefon: 06 (20) 555 5555<br/>
-          E-mail: pusztaimezek@gmail.com
-        </p>
+    <section class="content-wrapper profilmessage">
+      <section class="kapcsolat">
+        <img class="kep" src="images/cim_kapcsolat.png" alt="">
+        <div class="profil">
+          <img class="face" src="images/profilkep.png" alt="">
+          <p class=""><b>Kovács Krisztina</b><br/>
+            Pusztai mézek méhészet<br/>
+            Cím: 2655 Pusztavám, Pusztai utca 22.<br/>
+            Telefon: 06 (20) 555 5555<br/>
+            E-mail: pusztaimezek@gmail.com
+          </p>
+        </div>
+      </section>
+      <div class="form">
+        <form method="post" action="http://valami.com" enctype="multipart/form-data">
+          <fieldset class="messagesend">
+            <div data-required class="twoinarow left">
+              <label for="form-name">Név</label>
+              <input type="text" name="name" id="form-name">
+            </div>
+
+            <div data-required class="twoinarow right">
+              <label for="form-email">E-mail</label>
+              <input type="email" name="email" id="form-email" placeholder="name@domain.hu" required>
+            </div>
+
+            <div data-required class="oneinarow">
+              <label for="form-message">Üzenet</label>
+              <textarea id="form-message" name="email" required></textarea>
+            </div>
+            <div class="button">
+              <input type="submit" value="Üzenet küldése" name="submit" />
+            </div>
+          </fieldset>
+        </form>
       </div>
     </section>
-
-    <div class="form">
-      <form method="post" action="http://valami.com" enctype="multipart/form-data">
-        <fieldset class="messagesend">
-          <div data-required class="twoinarow left">
-            <label for="form-name">Név</label>
-            <input type="text" name="name" id="form-name">
-          </div>
-
-          <div data-required class="twoinarow right">
-            <label for="form-email">E-mail</label>
-            <input type="email" name="email" id="form-email" placeholder="name@domain.hu" required>
-          </div>
-
-          <div data-required class="oneinarow">
-            <label for="form-message">Üzenet</label>
-            <textarea id="form-message" name="email" required></textarea>
-          </div>
-          <div class="button">
-            <input type="submit" value="Üzenet küldése" name="submit" />
-          </div>
-        </fieldset>
-      </form>
-    </div>
-  </section>
+  </main>
 
   <footer>
 vahgsusv

@@ -79,9 +79,8 @@ header a {
 
  .mezek {
    background-image: url(../images/mezek_background.jpg);
-   /*background-size: cover;*/
    background-position: top;
-   background-size: 100%;
+   background-size: 70%;
    background-repeat: no-repeat;
  }
 
@@ -313,6 +312,7 @@ footer {
      figure {
        margin: auto;
        padding: 0;
+       flex-basis: 20%;
      }
 
      figure:first-child {
