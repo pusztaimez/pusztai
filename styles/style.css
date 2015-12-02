@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
+  clear: both;
 }
 
 header {
@@ -113,7 +114,12 @@ header a {
 
  .cim {
    padding-top: 250px;
+   display: block;
  }
+
+ .kontakt_cim {
+  padding-top: 50px
+}
 
  .tovabb {
   vertical-align: middle;
@@ -158,41 +164,35 @@ figcaption.name {
 }
 
 
-.profilmessage {
-  display: block;
-  width: 100%;
+.kapcsolat {
   clear: both;
   padding-top: 50px;
 }
 
-.kapcsolat {
+.kontaktinfo {
 float: left;
-width: 50%;
+margin-bottom: 30px;
+margin-top: 30px;
 }
 
-.kapcsolat .kep {
-  display: block;
-  margin-bottom: 30px;
-}
 
-.kapcsolat .profil {
+.kontaktinfo .profil {
   display: inline-block;
+
 }
 
-.kapcsolat .profil .face {
-  display: block;
+.kontaktinfo .profil .face {
   float: left;
   margin-right: 30px;
 }
 
-.kapcsolat .profil p {
+.kontaktinfo .profil p {
   float: left;
   font-size: 0.8em;
   margin-top: 0;
 }
 
-.kapcsolat .profil p b {
-  display: inline-block;
+.kontaktinfo .profil p b {
   margin-bottom: 10px;
   font-size: 1.5em;
 }
@@ -202,7 +202,7 @@ width: 50%;
   width: 100%;
   background-color: #ff9d34;
   border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .messagesend {
@@ -350,13 +350,7 @@ footer {
        flex-grow: 1;
      }
 
-     .form {
-       float: left;
-       width: 50%;
-       background-color: #ff9d34;
-       border-radius: 10px;
-       margin-top: 80px;
-     }
+
 
 }
 
@@ -367,6 +361,20 @@ footer {
     flex-basis: 33.3%;
     max-width: 33.3%;
   }
+
+  .form {
+    display:inline-block;
+    float: right;
+    width: 50%;
+    background-color: #ff9d34;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+
+ .kontaktinfo {
+   width: 50%;
+ }
+
 }
 
 @media screen and (min-width: 62rem) {
