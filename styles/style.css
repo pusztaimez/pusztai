@@ -68,6 +68,23 @@ header a {
    color: #fff;
  }
 
+ header input {
+  position: absolute;
+  opacity: 0;
+}
+/*input:checked ~ nav {*/
+header nav.hide {
+  display: none;
+}
+
+header label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: .1em 0.4em;
+  font-size: 2.3rem;
+  cursor: pointer;
+}
  .meheszet {
    background-image: url(../images/meheszet.png);
    background-size: contain;
@@ -107,6 +124,11 @@ header a {
   color: #351011;
   text-decoration: none;
 }
+
+.tovabb span a:first-child ~ a {
+  display: none;
+}
+
 .tovabb span a:hover {
   color:#fd3406;
   text-decoration: none;
