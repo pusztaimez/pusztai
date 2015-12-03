@@ -17,17 +17,17 @@
   <header>
     <input type="checkbox" id="hambi" checked/>
     <label for="hambi" id="menuToggle">☰</label>
-      <nav>
-        <div class="header">
-          <a class="logo" href="#">
-            <img src="images/pusztai_logo.png" alt="Pusztai mézek">
-          </a>
+    <nav>
+      <div class="header">
+        <a class="logo" href="#">
+          <img src="images/pusztai_logo.png" alt="Pusztai mézek">
+        </a>
         <ul id="menuContainer">
-          <li><a href="">Mézeink</a></li>
-          <li><a href="">Szörpök</a></li>
-          <li><a href="">Sütemények</a></li>
-          <li><a href="">Galéria</a></li>
-          <li><a href="">Kapcsolat</a></li>
+          <li><a href="#mezeink">Mézeink</a></li>
+          <li><a href="#szorpok">Szörpök</a></li>
+          <li><a href="#sutemenyek">Sütemények</a></li>
+          <li><a href="#galeria">Galéria</a></li>
+          <li><a href="#kapcsolat">Kapcsolat</a></li>
         </ul>
       </div>
     </nav>
@@ -37,37 +37,37 @@
       <div class="content-wrapper">
         <div class="meheszet-content">
           <img src="images/cim_meheszetrol.png" alt="Méhészetről">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ornare tellus laoreet semper tristique. Mauris vitae feugiat justo. Fusce ornare efficitur erat vel lacinia. Etiam aliquam arcu at magna pellentesque, porta convallis ipsum pretium.
+          <p>Méheink kora tavasztól késő őszig a Kiskunsági Nemzeti Park részét képező Apajpusztán gyűjtik a virágok nektárját, természetes közegben, távol minden szennyezéstől. Innen is származik a ’Pusztai mézek’ elnevezés. 100%-ban természetes!
           </p>
           <div class="tovabb">
             <span>
               <a href="images/galery/kep1.jpg" class="swipebox" title="méz">
-              A méhészet képekben
+                A méhészet képekben
               </a>
               <a href="images/galery/kep2.jpg" class="swipebox" title="méz">
-              A méhészet képekben
+                A méhészet képekben
               </a>
               <a href="images/galery/kep3.jpg" class="swipebox" title="méz">
-              A méhészet képekben
+                A méhészet képekben
               </a>
               <a href="images/galery/kep4.jpg" class="swipebox" title="méz">
-              A méhészet képekben
+                A méhészet képekben
               </a>
               <a href="images/galery/kep5.jpg" class="swipebox" title="méz">
-              A méhészet képekben
+                A méhészet képekben
               </a>
               <a href="images/galery/kep7.jpg" class="swipebox" title="méz">
-              A méhészet képekben
+                A méhészet képekben
               </a>
             </span>
             <img src="images/nyil.png" alt="Tovább"></div>
+          </div>
         </div>
-      </div>
-    </section>
-    <div class="content-wrapper">
-      <section class="mezek">
+      </section>
+      <div class="content-wrapper">
+        <section class="mezek" id="mezeink">
           <img class="cim" src="images/cim_mezek.png" alt="Mézek">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ornare tellus laoreet semper tristique. Mauris vitae feugiat justo. Fusce ornare efficitur erat vel lacinia. Etiam aliquam arcu at magna pellentesque, porta convallis ipsum pretium.
+          <p>A méz a benne található vitaminok, ásványi anyagok, makro- és mikroelemek, s elsősorban enzimei révén évszázadok óta egyedülálló egészségmegőrző táplálékként szerepel étrendünkben, de ajánljuk mindazoknak is, akik pusztán édes csemegére vágynak. Ügyelünk arra, hogy a kíméletes feldolgozás során mézeink beltartalmi értékét változatlanul megőrizzük.
           </p>
           <div class="flex_container">
             <figure>
@@ -121,49 +121,49 @@
               <figcaption class="price">500 g  / 2400 Ft</figcaption>
             </figure>
           </div>
-      </section>
-    </div>
-    <section class="content-wrapper kapcsolat">
-      <div class="kontakt_cim"><img src="images/cim_kapcsolat.png" alt="kapcsolat"></div>
-      <div class="kontaktinfo">
-        <div class="profil">
-          <img class="face" src="images/profilkep.png" alt="Kovács Krisztina">
-          <p><b>Kovács Krisztina</b><br/>
-            Pusztai mézek méhészet<br/>
-            Cím: 2655 Pusztavám, Pusztai utca 22.<br/>
-            Telefon: 06 (20) 555 5555<br/>
-            E-mail: pusztaimezek@gmail.com
-          </p>
+        </section>
+      </div>
+      <section class="content-wrapper kapcsolat" id="kapcsolat">
+        <div class="kontakt_cim"><img src="images/cim_kapcsolat.png" alt="kapcsolat"></div>
+        <div class="kontaktinfo">
+          <div class="profil">
+            <img class="face" src="images/profilkep.png" alt="Kovács Krisztina">
+            <p><b>Kovács Krisztina</b><br/>
+              Pusztai mézek méhészet<br/>
+              Cím: 2655 Pusztavám, Pusztai utca 22.<br/>
+              Telefon: 06 (20) 555 5555<br/>
+              E-mail: pusztaimezek@gmail.com
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="form">
-        <form method="post" action="http://valami.com" enctype="multipart/form-data">
-          <fieldset class="messagesend">
-            <div data-required class="twoinarow left">
-              <label for="form-name">Név</label>
-              <input type="text" name="name" id="form-name">
-            </div>
-            <div data-required class="twoinarow right">
-              <label for="form-email">E-mail</label>
-              <input type="email" name="email" id="form-email" placeholder="name@domain.hu" required>
-            </div>
+        <div class="form">
+          <form method="post" action="http://valami.com" enctype="multipart/form-data">
+            <fieldset class="messagesend">
+              <div data-required class="twoinarow left">
+                <label for="form-name">Név</label>
+                <input type="text" name="name" id="form-name">
+              </div>
+              <div data-required class="twoinarow right">
+                <label for="form-email">E-mail</label>
+                <input type="email" name="email" id="form-email" placeholder="name@domain.hu" required>
+              </div>
+              
+              <div data-required class="oneinarow">
+                <label for="form-message">Üzenet</label>
+                <textarea id="form-message" name="email" required></textarea>
+              </div>
+              <div class="button">
+                <input type="submit" value="Üzenet küldése" name="submit" />
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </main>
 
-            <div data-required class="oneinarow">
-              <label for="form-message">Üzenet</label>
-              <textarea id="form-message" name="email" required></textarea>
-            </div>
-            <div class="button">
-              <input type="submit" value="Üzenet küldése" name="submit" />
-            </div>
-          </fieldset>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-vahgsusv
-  </footer>
+    <footer>
+      vahgsusv
+    </footer>
     <script src="scripts/jquery-2.1.4.min.js"></script>
     <script src="scripts/jquery.swipebox.min.js"></script>
     <script src="scripts/script.js"></script>
