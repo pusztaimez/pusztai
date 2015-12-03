@@ -37,13 +37,12 @@ header {
 }
 
 nav {
-	background-color: rgba(206, 73, 0, 0.6);
+	background-color: rgba(206, 73, 0, 0.8);
   font-family: 'Open Sans';
   text-transform: uppercase;
   text-align: center;
 	margin: 0;
   position: fixed; top: 0; left: 0;
-  z-index:999;
 	width: 100%;
 }
 
@@ -118,7 +117,8 @@ header a {
  }
 
  .kontakt_cim {
-  padding-top: 50px
+  width: 100%;
+  padding-top: 50px;
 }
 
  .tovabb {
@@ -163,11 +163,6 @@ figcaption.name {
   font-size: 1.7rem;
 }
 
-
-.kapcsolat {
-  clear: both;
-  padding-top: 50px;
-}
 
 .kontaktinfo {
 float: left;
@@ -365,6 +360,10 @@ header label {
     max-width: 33.3%;
   }
 
+}
+
+
+@media screen and (min-width: 56.5rem) {
   .form {
     display:inline-block;
     float: right;
@@ -377,7 +376,6 @@ header label {
  .kontaktinfo {
    width: 50%;
  }
-
 }
 
 @media screen and (min-width: 62rem) {
