@@ -78,7 +78,7 @@ header a {
    opacity: 0;
  }
  /*input:checked ~ nav {*/
- header nav.hide {
+ #menuContainer.hide {
    display: none;
  }
 
@@ -277,6 +277,9 @@ footer {
 
 @media screen and (min-width:31.25rem) {
 
+header label {
+  display: none;
+}
 
    header nav ul {
      display: flex;
