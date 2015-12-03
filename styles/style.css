@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 header {
   background: #ff9d34;
   margin: 0;
-  background-image: url(../images/img_lepkek.png);
+  background-image: url(../images/img_lepkek_small2.svg);
   background-size: cover;
   background-position: center center;
   height: 60vh;
@@ -112,9 +112,12 @@ header label {
 }
 
 .cim {
+  width: auto;
+  height: 40px;
   padding-top: 250px;
   display: block;
 }
+
 
 .kontakt_cim {
   width: 100%;
