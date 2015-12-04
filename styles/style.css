@@ -17,8 +17,10 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', arial, sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: normal;
 }
+
 
 .content-wrapper {
   width: 90%;
@@ -34,6 +36,11 @@ header {
   background-size: cover;
   background-position: center center;
   height: 60vh;
+}
+
+header.aloldal {
+  background-image: none;
+  height: auto;
 }
 
 nav {
@@ -95,7 +102,15 @@ header label {
   flex-flow: column;
 }
 
+.termek {
+  width: 100%;
+  padding-top: 70px;
+}
 
+
+.info {
+  color: #351011;
+}
 
 .meheszet {
   background-color: #fef5e8;
@@ -170,6 +185,11 @@ figure > a > img {
   width: 100%;
 }
 
+figure > a > img:hover {
+  opacity: 0.8;
+  background-color: black;
+ }
+
 figcaption.name {
   font-style: italic;
   color: #351011;
@@ -180,8 +200,21 @@ figcaption.price {
   color: #351011;
 }
 
+figcaption.price:hover {
+  color: #fd5401;
+}
+
+figcaption.name:hover {
+  color: #fd5401;
+}
+
+
 a {
   text-decoration: none;
+}
+
+a:hover {
+  color: #fd5401;
 }
 
 .kontaktinfo {
@@ -330,6 +363,27 @@ footer {
   .logo {
     align-self: center;
   }
+
+  .termek {
+    width: 50%;
+    padding-top: 70px;
+    padding-right: 30px;
+    float: left;
+  }
+
+h1 {
+  font-size: 2rem;
+  font-style: italic;
+  padding-top: 70px;
+}
+
+h2 {
+    font-family: 'Open Sans', Helvetica, Arial;
+    text-transform: uppercase;
+    color: #351011;
+  }
+
+}
 
   .mezek {
     background-image: url(../images/mezek_background.jpg);
