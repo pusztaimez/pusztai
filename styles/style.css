@@ -21,6 +21,19 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
+h1 {
+  font-size: 2rem;
+  font-style: italic;
+  padding-top: 30px;
+}
+
+h2 {
+    font-family: 'Open Sans', Helvetica, Arial;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #351011;
+  }
+
 
 .content-wrapper {
   width: 90%;
@@ -106,6 +119,7 @@ header label {
   width: 100%;
   padding-top: 70px;
 }
+
 
 
 .info {
@@ -342,6 +356,13 @@ footer {
     height: 70px;
   }
 
+.aloldal {
+    background: #ff9d34;
+    margin: 0;
+    background-image: none;
+    height: 70px;
+  }
+
   header nav li {
     border-bottom: none;
     line-height: 70px;
@@ -368,8 +389,11 @@ footer {
     width: 50%;
     padding-top: 70px;
     padding-right: 30px;
-    float: left;
-  }
+    float: left;}
+
+ .leiras {
+   padding-left: 50%;
+ }
 
 h1 {
   font-size: 2rem;
@@ -379,6 +403,7 @@ h1 {
 
 h2 {
     font-family: 'Open Sans', Helvetica, Arial;
+    font-size: 1.6rem;
     text-transform: uppercase;
     color: #351011;
   }
