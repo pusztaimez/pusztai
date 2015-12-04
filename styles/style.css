@@ -166,15 +166,23 @@ header label {
   vertical-align: middle;
 }
 
-figure > img {
+figure > a > img {
   width: 100%;
 }
 
 figcaption.name {
   font-style: italic;
+  color: #351011;
   font-size: 1.7rem;
 }
 
+figcaption.price {
+  color: #351011;
+}
+
+a {
+  text-decoration: none;
+}
 
 .kontaktinfo {
   float: left;
