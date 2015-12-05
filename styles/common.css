@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: 1.4rem/1.8 'Libre Baskerville', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2rem;
+  font-style: italic;
+  padding-top: 30px;
+}
+
+h2 {
+    font-family: 'Open Sans', Helvetica, Arial;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #351011;
+  }
+
+
+
+.content-wrapper {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.cim {
+  width: auto;
+  height: 40px;
+  margin-top: 200px;
+  display: block;
+}
+
+.kontakt_cim > .cim {
+  margin-top:0;
+  padding-top:0;
+}
+
+.kontakt_cim {
+  width: 100%;
+  padding-top: 50px;
+}
+
+
+@media screen and (min-width:31.25rem) {
+  .cim {
+    padding-top: 0;
+    margin-top: 200px;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 42rem) {
+  .cim {
+    padding-top: 0;
+    margin-top: 0;
+  }
+}
+
+
+@media screen and (min-width: 56.5rem) {
+  .cim {
+    padding-top: 0;
+    margin-top: 0;
+  }
+}

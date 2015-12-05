@@ -1,0 +1,62 @@
+header.aloldal {
+  background-image: none;
+  height: auto;
+}
+
+.termek {
+  width: 100%;
+  padding-top: 70px;
+}
+
+
+.info {
+  color: #351011;
+}
+
+
+
+@media screen and (min-width:31.25rem) {
+  .aloldal {
+    background: #ff9d34;
+    margin: 0;
+    background-image: none;
+    height: 70px;
+  }
+  .termek {
+    width: 50%;
+    padding-top: 70px;
+    padding-right: 30px;
+    float: left;
+  }
+
+  .leiras {
+    padding-left: 50%;
+  }
+}
+
+  @media screen and (min-width: 42rem) {
+
+
+
+  }
+
+  @media screen and (min-width: 56.5rem) {
+
+
+
+  }
+
+
+  @media screen and (min-width: 62rem) {
+
+
+
+  }
+
+
+  @media screen and (min-width:79rem) {
+
+
+
+
+  }
