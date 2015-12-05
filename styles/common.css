@@ -27,7 +27,9 @@ h1 {
   white-space: nowrap;
   background-repeat: no-repeat;
   background-size: auto 40px;
-  background-position: left center;
+  background-position: 0 70px;
+  padding-top: 70px;
+  margin-top: 130px;
 }
 
 
@@ -43,7 +45,6 @@ h3 {
     text-transform: uppercase;
     color: #351011;
   }
-
 
 
 .content-wrapper {
@@ -78,6 +79,15 @@ a {
 */
 
 @media screen and (min-width:31.25rem) {
+
+  h1 {
+    padding-top: 70px;
+    margin-top: 130px;
+  }
+
+  .kapcsolat h1 {
+
+  }
   /*
   .cim {
     padding-top: 70px;
@@ -94,7 +104,10 @@ a {
   }
 }
 */
-
+h1 {
+  padding-top: 70px;
+  margin-top: -70px;
+}
 
 @media screen and (min-width: 56.5rem) {
 
