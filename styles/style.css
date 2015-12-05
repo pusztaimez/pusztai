@@ -108,6 +108,7 @@ header label {
   padding: .1em 0.4em;
   font-size: 2.3rem;
   cursor: pointer;
+  z-index: 999;
 }
 
 .flex_container {
@@ -195,8 +196,14 @@ header label {
   vertical-align: middle;
 }
 
+figure {
+  margin: 0;
+  padding: 0;
+}
+
 figure > a > img {
   width: 100%;
+
 }
 
 figure > a > img:hover {
@@ -408,7 +415,7 @@ h2 {
     color: #351011;
   }
 
-}
+
 
   .mezek {
     background-image: url(../images/mezek_background.jpg);
@@ -431,52 +438,32 @@ h2 {
     flex-wrap: wrap;
     justify-content: flex-start;
     padding: 0;
-    margin: -10;
+    margin: -10px;
   }
 
   figure {
-    margin: 0;
-    padding: 10px;
+    margin-left: 10px;
+    padding: 0;
     flex-basis: 50%;
-    max-width: 50%;
+    max-width: calc(50% - 10px);
     flex-grow: 1;
   }
-
-  /*
-
-  figure:nth-child(odd) {
-    padding-left: 0;
-  }
-
-  figure:nth-child(even) {
-    padding-right: 0;
-  }
-*/
 }
 
 @media screen and (min-width: 42rem) {
   figure {
-    margin: 0;
-    padding: 10px;
-    flex-basis: 33.3%;
-    max-width: 33.3%;
+    flex-basis: 30%;
+    max-width: calc(33.33% - 10px);
   }
-/*
-  figure:first-child:nth-child(n+3):nth-child(n+6) {
-    padding-left: 0;
-  }
-
-
-  figure:nth-child(n+2):nth-child(n+5):nth-child(n+8) {
-    padding-right: 0;
-  }
-
-  */
 
   .mezek > p {
     padding-right: 250px;
   }
 
+
+  #menuContainer.hide {
+    display: block;
+  }
 
   .mezek {
     background-image: url(../images/mezek_background.jpg);
@@ -497,11 +484,9 @@ h2 {
 
 @media screen and (min-width: 56.5rem) {
 
-
   .mezek > p {
     padding-right: 250px;
   }
-
 
 
   .mezek {
@@ -548,10 +533,8 @@ h2 {
 
 @media screen and (min-width: 62rem) {
   figure {
-    margin: 0;
-    padding: 10px;
-    flex-basis: 25%;
-    max-width: 25%;
+    flex-basis: 22%;
+    max-width: calc(25% - 10px);
   }
 
 
@@ -565,10 +548,8 @@ h2 {
 @media screen and (min-width:79rem) {
 
   figure {
-    margin: 0;
-    padding: 10px;
-    flex-basis: 20%;
-    max-width: 20%;
+    flex-basis: 18%;
+    max-width: calc(20% - 10px);
   }
 
   /*
