@@ -8,6 +8,11 @@ header {
   height: 60vh;
 }
 
+header.aloldal {
+  background-image: none;
+  height: 70px;
+}
+
 nav {
   background-color: rgba(206, 73, 0, 0.8);
   font-family: 'Open Sans';
