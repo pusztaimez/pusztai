@@ -6,10 +6,12 @@ function menuNyitoCsuko () {
 }
 
 menuGomb.addEventListener('click', menuNyitoCsuko);
-if (window.innerWidth < 500) {
-menuNyitoCsuko();
-}
 
+menuNyitoCsuko();
+
+menuContainer.addEventListener('click', menuNyitoCsuko);
+
+/*
 $('#nav').onePageNav({
     currentClass: 'current',
     changeHash: false,
@@ -27,3 +29,4 @@ $('#nav').onePageNav({
         //I get fired when you enter a section and I pass the list item of the section
     }
 });
+*/

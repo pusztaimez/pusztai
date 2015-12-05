@@ -22,12 +22,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  text-indent: 100%;
+  overflow:hidden;
+  white-space: nowrap;
+  background-repeat: no-repeat;
+  background-size: auto 40px;
+  background-position: left center;
+}
+
+
+h2 {
   font-size: 2rem;
   font-style: italic;
   padding-top: 30px;
 }
 
-h2 {
+h3 {
     font-family: 'Open Sans', Helvetica, Arial;
     font-size: 1.6rem;
     text-transform: uppercase;
@@ -47,7 +57,7 @@ a {
   text-decoration: none;
 }
 
-
+/*
 .cim {
   width: auto;
   height: 40px;
@@ -65,22 +75,25 @@ a {
   padding-top: 120px;
   margin-top: -70px;
 }
-
+*/
 
 @media screen and (min-width:31.25rem) {
+  /*
   .cim {
     padding-top: 70px;
     margin-top: 130px;
     display: block;
   }
 }
-
+*/
 @media screen and (min-width: 42rem) {
+  /*
   .cim {
     padding-top: 70px;
     margin-top: -70px;
   }
 }
+*/
 
 
 @media screen and (min-width: 56.5rem) {

@@ -13,6 +13,14 @@ header.aloldal {
   height: 70px;
 }
 
+
+header > label {
+  position: fixed; top: 10px; right: 10px;
+  font-size: 2.3rem;
+  cursor: pointer;
+  z-index: 999;
+}
+
 nav {
   background-color: rgba(206, 73, 0, 0.8);
   font-family: 'Open Sans';
@@ -58,112 +66,107 @@ header input {
   display: none;
 }
 
-header label {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: .1em 0.4em;
-  font-size: 2.3rem;
-  cursor: pointer;
-  z-index: 999;
-}
+
 @media screen and (min-width:31.25rem) {
-  header label {
-    display: none;
-  }
-
-  header nav ul {
-    display: flex;
-    max-width: 1000px;
-    justify-content: center;
-    align-self: flex-end;
-
-  }
-
-  nav {
-    display: flex;
-    height: 70px;
-  }
 
 
 
-  header nav li {
-    border-bottom: none;
-    line-height: 70px;
-  }
+  @media screen and (min-width: 42.5rem) {
+
+    header label {
+      display: none;
+    }
+
+    header nav ul {
+      display: flex;
+      max-width: 1000px;
+      justify-content: center;
+      align-self: flex-end;
+
+    }
+
+    nav {
+      display: flex;
+      height: 70px;
+    }
 
 
-  header a {
-    padding: 0 .5em;
-  }
+    header nav li {
+      border-bottom: none;
+      line-height: 70px;
+    }
 
 
-  .header {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-  }
+    header a {
+      padding: 0 .5em;
+    }
 
-  .logo {
-    align-self: center;
-  }
 
-@media screen and (min-width: 42rem) {
+    .header {
+      width: 90%;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+
+    .logo {
+      align-self: center;
+    }
+
 
     #menuContainer.hide {
-      display: block;
+      display: flex;
     }
 
 
-      .mezek {
-        background-image: url(../images/mezek_background.jpg);
-        /*background-size: cover;*/
-        background-position: right top;
-        background-size: 250px auto;
-        background-repeat: no-repeat;
-      }
-
-
-
+    .mezek {
+      background-image: url(../images/mezek_background.jpg);
+      /*background-size: cover;*/
+      background-position: right top;
+      background-size: 250px auto;
+      background-repeat: no-repeat;
     }
 
 
-    @media screen and (min-width: 56.5rem) {
-      .mezek > p {
-        padding-right: 250px;
-      }
+
+  }
 
 
-      .mezek {
-        background-image: url(../images/mezek_background.jpg);
-        /*background-size: cover;*/
-        background-position: right top;
-        background-size: 250px auto;
-        background-repeat: no-repeat;
-      }
+  @media screen and (min-width: 56.5rem) {
+    .mezek > p {
+      padding-right: 250px;
+    }
 
 
-
-}
-
-@media screen and (min-width: 56.5rem) {
-
-
-
-}
-
-
-@media screen and (min-width: 62rem) {
+    .mezek {
+      background-image: url(../images/mezek_background.jpg);
+      /*background-size: cover;*/
+      background-position: right top;
+      background-size: 250px auto;
+      background-repeat: no-repeat;
+    }
 
 
 
-}
+  }
 
-
-@media screen and (min-width:79rem) {
-
+  @media screen and (min-width: 56.5rem) {
 
 
 
-}
+  }
+
+
+  @media screen and (min-width: 62rem) {
+
+
+
+  }
+
+
+  @media screen and (min-width:79rem) {
+
+
+
+
+  }
