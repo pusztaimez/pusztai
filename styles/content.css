@@ -13,7 +13,6 @@
   background-size: 70%;
   background-repeat: no-repeat;
   padding-top: 50px;
-  margin-bottom: 50px;
 }
 
 
@@ -21,6 +20,18 @@
   background-image: url(../images/cim_mezek.svg);
 }
 
+.szorpok {
+  background-image: url(../images/szorpok_background.jpg);
+  background-position: top;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  margin-bottom: 50px;
+
+}
+.szorpok h1 {
+  background-image: url(../images/cim_szorpok.svg);
+}
 
 .kapcsolat h1 {
   background-image: url(../images/cim_kapcsolat.svg);
@@ -162,10 +173,14 @@ a:hover {
 
 @media screen and (min-width:31.25rem) {
   .mezek {
-    background-image: url(../images/mezek_background.jpg);
     background-position: top;
     background-size: 55%;
-    background-repeat: no-repeat;
+    padding-top: 50px;
+  }
+
+  .szorpok {
+    background-position: top;
+    background-size: 55%;
     padding-top: 50px;
   }
 
@@ -199,8 +214,29 @@ a:hover {
     padding-right: 250px;
   }
 
+  .szorpok > p {
+    padding-right: 250px;
+  }
+
+  .sutik > p {
+    padding-right: 250px;
+  }
+
   .mezek {
-    background-image: url(../images/mezek_background.jpg);
+    /*background-size: cover;*/
+    background-position: right top;
+    background-size: 250px auto;
+    background-repeat: no-repeat;
+  }
+
+  .szorpok {
+    /*background-size: cover;*/
+    background-position: right top;
+    background-size: 250px auto;
+    background-repeat: no-repeat;
+  }
+
+  .sutik {
     /*background-size: cover;*/
     background-position: right top;
     background-size: 250px auto;
@@ -209,20 +245,6 @@ a:hover {
 }
 
 @media screen and (min-width: 56.5rem) {
-  .mezek > p {
-    padding-right: 250px;
-  }
-
-
-  .mezek {
-    background-image: url(../images/mezek_background.jpg);
-    /*background-size: cover;*/
-    background-position: right top;
-    background-size: 250px auto;
-    background-repeat: no-repeat;
-  }
-
-
 
   .form {
     display:inline-block;

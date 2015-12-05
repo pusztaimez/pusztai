@@ -1,4 +1,3 @@
-
 header {
   background: #ff9d34;
   margin: 0;
@@ -9,6 +8,7 @@ header {
 }
 
 header.aloldal {
+  background-color: #fff;
   background-image: none;
   height: 70px;
 }
