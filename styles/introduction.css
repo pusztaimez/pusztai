@@ -1,0 +1,87 @@
+.meheszet {
+    background-color: #fef5e8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .meheszet-content > .cim {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .tovabb {
+    vertical-align: middle;
+    clear: both;
+    float: none;
+  }
+
+  .tovabb span {
+    display: inline-block;
+    vertical-align: middle;
+    font: 1.2rem 'Open-Sans', sans-serif;
+    text-transform: uppercase;
+
+  }
+
+  .tovabb span a {
+    color: #351011;
+    text-decoration: none;
+  }
+
+
+  .tovabb span a:first-child ~ a {
+    display: none;
+  }
+
+  .tovabb span a:hover {
+    color:#fd3406;
+    text-decoration: none;
+  }
+
+  .tovabb img {
+    vertical-align: middle;
+  }
+
+@media screen and (min-width:31.25rem) {
+
+
+}
+
+@media screen and (min-width: 42rem) {
+
+
+
+}
+
+@media screen and (min-width: 56.5rem) {
+
+    .meheszet {
+      background-image: url(../images/meheszet.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 40vh;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .meheszet-content {
+      padding-left: 380px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 62rem) {
+
+
+
+}
+
+
+@media screen and (min-width:79rem) {
+
+
+
+
+}

@@ -1,0 +1,164 @@
+
+header {
+  background: #ff9d34;
+  margin: 0;
+  background-image: url(../images/img_lepkek_small2.svg);
+  background-size: cover;
+  background-position: center center;
+  height: 60vh;
+}
+
+nav {
+  background-color: rgba(206, 73, 0, 0.8);
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  position: fixed; top: 0; left: 0;
+  width: 100%;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav li {
+  font-family: 'Open Sans', Helvetica, Arial;
+  border-bottom: 1px solid rgb(206, 73, 0);
+  text-decoration: none;
+}
+
+header nav li:hover {
+  background-color: #333;
+}
+
+header a {
+  display: block;
+  padding: .5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+
+header input {
+  position: absolute;
+  opacity: 0;
+}
+/*input:checked ~ nav {*/
+#menuContainer.hide {
+  display: none;
+}
+
+header label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: .1em 0.4em;
+  font-size: 2.3rem;
+  cursor: pointer;
+  z-index: 999;
+}
+@media screen and (min-width:31.25rem) {
+  header label {
+    display: none;
+  }
+
+  header nav ul {
+    display: flex;
+    max-width: 1000px;
+    justify-content: center;
+    align-self: flex-end;
+
+  }
+
+  nav {
+    display: flex;
+    height: 70px;
+  }
+
+
+
+  header nav li {
+    border-bottom: none;
+    line-height: 70px;
+  }
+
+
+  header a {
+    padding: 0 .5em;
+  }
+
+
+  .header {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .logo {
+    align-self: center;
+  }
+
+@media screen and (min-width: 42rem) {
+
+    #menuContainer.hide {
+      display: block;
+    }
+
+
+      .mezek {
+        background-image: url(../images/mezek_background.jpg);
+        /*background-size: cover;*/
+        background-position: right top;
+        background-size: 250px auto;
+        background-repeat: no-repeat;
+      }
+
+
+
+    }
+
+
+    @media screen and (min-width: 56.5rem) {
+      .mezek > p {
+        padding-right: 250px;
+      }
+
+
+      .mezek {
+        background-image: url(../images/mezek_background.jpg);
+        /*background-size: cover;*/
+        background-position: right top;
+        background-size: 250px auto;
+        background-repeat: no-repeat;
+      }
+
+
+
+}
+
+@media screen and (min-width: 56.5rem) {
+
+
+
+}
+
+
+@media screen and (min-width: 62rem) {
+
+
+
+}
+
+
+@media screen and (min-width:79rem) {
+
+
+
+
+}
