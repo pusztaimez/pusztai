@@ -27,11 +27,25 @@
   background-size: 70%;
   background-repeat: no-repeat;
   padding-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 0;
 
 }
 .szorpok h1 {
   background-image: url(../images/cim_szorpok.svg);
+}
+
+.sutemenyek {
+  background-image: url(../images/suti_background.jpg);
+  background-position: top;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.sutemenyek h1 {
+  background-image: url(../images/cim_sutik.svg);
 }
 
 .kapcsolat h1 {
@@ -186,6 +200,12 @@ background-color: rgba(206, 73, 0, 0.3);
     padding-top: 50px;
   }
 
+  .sutemenyek {
+    background-position: top;
+    background-size: 55%;
+    padding-top: 50px;
+  }
+
 
   .flex_container {
     display: flex;
@@ -238,7 +258,7 @@ background-color: rgba(206, 73, 0, 0.3);
     background-repeat: no-repeat;
   }
 
-  .sutik {
+  .sutemenyek {
     /*background-size: cover;*/
     background-position: right top;
     background-size: 250px auto;
