@@ -36,7 +36,7 @@ h1 {
 h2 {
   font-size: 2rem;
   font-style: italic;
-  padding-top: 30px;
+  padding-top: 0;
 }
 
 h3 {
@@ -44,7 +44,9 @@ h3 {
     font-size: 1.6rem;
     text-transform: uppercase;
     color: #351011;
-  }
+    margin-top: 0;
+    display: inline; 
+ }
 
 
 .content-wrapper {
