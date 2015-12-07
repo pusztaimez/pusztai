@@ -1,15 +1,20 @@
 
 var menu = document.getElementById('menuContainer');
 var menuGomb = document.getElementById('menuToggle');
-function menuNyitoCsuko () {
+function menuNyitoCsuko (e) {
+  e.preventDefault();
   menu.classList.toggle('hide');
 }
 
-menuGomb.addEventListener('click', menuNyitoCsuko);
+function menuNyitoCsuko2 () {
+  menu.classList.toggle('hide');
+}
 
-menuNyitoCsuko();
+menuGomb.addEventListener('click', menuNyitoCsuko, false);
 
-menuContainer.addEventListener('click', menuNyitoCsuko);
+menuNyitoCsuko2();
+
+menuContainer.addEventListener('click', menuNyitoCsuko, false);
 
 /*
 $('#nav').onePageNav({
