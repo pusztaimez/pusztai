@@ -6,37 +6,45 @@
 .info {
   color: #351011;
   vertical-align: middle;
-
-
-
 }
+
+.egy {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 h3 {
   display: block;
-margin-bottom: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
 }
 
 p.info {
   margin-top: 0;
   margin-bottom: 0;
   display: inline-block;
+  vertical-align: middle;
 }
-
+/*
 .leiras > div {
   background-color: #fef5e8;
   padding: 20px;
   margin-top: 30px;
 }
-
+*/
 .rendeles {
-  vertical-align: middle;
+
+  background-color: #fef5e8;
+  padding: 20px;
+  margin-top: 30px;
 }
 
 .rendeles span {
-  display: inline-block;
+  display: block;
   vertical-align: middle;
   font: 1.2rem 'Open-Sans', sans-serif;
   text-transform: uppercase;
-  margin-left: 35px;
+  padding-top: 10px;
 }
 
 .rendeles span a {
@@ -51,7 +59,7 @@ p.info {
 
 .arrow {
   vertical-align: middle;
-  margin-left: 10px;
+
 }
 
 
@@ -65,19 +73,24 @@ p.info {
     float: left;
   }
 
-  .leiras {
-    padding-left: 40%;
-  }
-}
+
+    .leiras {
+      padding-left: 40%;
+    }
+
+
 
   @media screen and (min-width: 42rem) {
+
 
 
 
   }
 
   @media screen and (min-width: 56.5rem) {
-
+    .rendeles span {
+      float: right;
+    }
 
 
   }
