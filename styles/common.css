@@ -12,6 +12,11 @@ html {
   font-size: 62.5%;
 }
 
+#container {
+  min-height:100%;
+  position:relative;
+}
+
 body {
   font: 1.4rem/1.8 'Libre Baskerville', serif;
 }
