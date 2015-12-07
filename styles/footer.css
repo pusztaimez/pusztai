@@ -1,13 +1,6 @@
 footer {
-
-  background-color: #270f0d;
+  background: linear-gradient(to bottom, #311109 0%,#270f0d 30%,#270f0d 100%);
   height: 200px;
   width: 100%;
   margin-top: 20px;
-  position:absolute;
-  bottom:0;
-  clear: both;
-
-
-
 }

@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/swipebox.min.css">
 </head>
-<body>
+<body class="site">
   <header class="aloldal">
     <input type="checkbox" id="hambi" checked/>
     <label for="hambi" id="menuToggle">☰</label>
@@ -32,9 +32,9 @@
       </div>
     </nav>
   </header>
-  <main>
+  <main class="Site-content">
     <div class="content-wrapper">
-      <section class="selyemfu">
+      <section class="product cf">
         <img class="termek" src="images/selyemfumez.jpg" alt="Selyemfű méz">
         <div class="leiras">
           <h2>Selyemfű méz</h2>
@@ -47,7 +47,7 @@
             </div>
             <span>
               <a href="index.html#kapcsolat">Rendelés</a>
-              <a href="index.html#kapcsolat" class="arrow"><img src="images/nyil.svg" alt="Tovább"></a></div>
+              <a href="index.html#kapcsolat" class="arrow"><img src="images/nyil.svg" alt="Tovább"></a>
             </span>
 
           </div>
@@ -60,6 +60,7 @@
   </footer>
   <script src="scripts/jquery-2.1.4.min.js"></script>
   <script src="scripts/jquery.swipebox.min.js"></script>
+  <script src="scripts/jquery.nav.js"></script>
   <script src="scripts/script.js"></script>
   <script type="text/javascript">
   ;( function( $ ) {
@@ -68,7 +69,25 @@
 
   } )( jQuery );
   </script>
-
+  <script>
+  $('#menuContainer').onePageNav({
+  currentClass: 'current',
+  changeHash: false,
+  scrollSpeed: 750,
+  scrollThreshold: 0.5,
+  filter: '',
+  easing: 'swing',
+  begin: function() {
+      //I get fired when the animation is starting
+  },
+  end: function() {
+      //I get fired when the animation is ending
+  },
+  scrollChange: function($currentListItem) {
+      //I get fired when you enter a section and I pass the list item of the section
+  }
+});
+  </script>
 
 </body>
 </html>

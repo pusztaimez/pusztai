@@ -13,19 +13,19 @@ html {
 }
 
 
-html,  body {
-  height: 100%;
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
-
-#container {
-  min-height:100%;
-  position:relative;
+.Site-content {
+  flex: 1;
 }
 
 body {
   font: 1.4rem/1.8 'Libre Baskerville', serif;
-  padding-bottom: 250px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -71,6 +71,17 @@ h3 {
 a {
   text-decoration: none;
 }
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
 
 /*
 .cim {

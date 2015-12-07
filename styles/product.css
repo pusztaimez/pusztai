@@ -78,7 +78,9 @@ p.info {
       padding-left: 40%;
     }
 
-
+   .product {
+     margin-top: 20px;
+   }
 
   @media screen and (min-width: 42rem) {
 
