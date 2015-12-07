@@ -19,6 +19,7 @@ html {
 
 body {
   font: 1.4rem/1.8 'Libre Baskerville', serif;
+  padding-bottom: 250px;
 }
 
 h1, h2, h3, h4, h5, h6 {
