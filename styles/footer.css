@@ -1,5 +1,7 @@
 footer {
   background: linear-gradient(to bottom, #311109 0%,#270f0d 30%,#270f0d 100%);
+  color: #fff;
+  text-align: center;
   height: 200px;
   width: 100%;
   margin-top: 20px;

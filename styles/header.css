@@ -16,9 +16,7 @@ header.aloldal {
 
 header > label {
   position: fixed; right: 20px;
-  font-family: 'Open Sans';
-  font-size: 2.3rem;
-  font-weight: 800;
+  font-size: 2rem;
   color: white;
   line-height: 70px;
   cursor: pointer;

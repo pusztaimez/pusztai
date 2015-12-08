@@ -2,6 +2,7 @@
     background-color: #fef5e8;
     padding-top: 40px;
     padding-bottom: 60px;
+    max-height: 300px;
   }
 
 .meheszet h1 {
@@ -68,6 +69,7 @@
 
     .meheszet-content {
       padding-left: 380px;
+      vertical-align: middle;
     }
 }
 
