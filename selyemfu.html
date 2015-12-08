@@ -22,11 +22,10 @@
         <a class="logo" href="index.html">
           <img src="images/pusztai_logo.svg" alt="Pusztai mézek">
         </a>
-        <ul id="menuContainer" id="nav">
+        <ul id="menuContainer">
           <li><a href="index.html#mezeink">Mézeink</a></li>
           <li><a href="index.html#szorpok">Szörpök</a></li>
           <li><a href="index.html#sutemenyek">Sütemények</a></li>
-          <li><a href="index.html#galeria">Galéria</a></li>
           <li><a href="index.html#kapcsolat">Kapcsolat</a></li>
         </ul>
       </div>
@@ -60,8 +59,7 @@
   </footer>
   <script src="scripts/jquery-2.1.4.min.js"></script>
   <script src="scripts/jquery.swipebox.min.js"></script>
-  <script src="scripts/jquery.nav.js"></script>
-  <script src="scripts/script.js"></script>
+  <script src="scripts/script_aloldal.js"></script>
   <script type="text/javascript">
   ;( function( $ ) {
 
@@ -69,25 +67,7 @@
 
   } )( jQuery );
   </script>
-  <script>
-  $('#menuContainer').onePageNav({
-  currentClass: 'current',
-  changeHash: false,
-  scrollSpeed: 750,
-  scrollThreshold: 0.5,
-  filter: '',
-  easing: 'swing',
-  begin: function() {
-      //I get fired when the animation is starting
-  },
-  end: function() {
-      //I get fired when the animation is ending
-  },
-  scrollChange: function($currentListItem) {
-      //I get fired when you enter a section and I pass the list item of the section
-  }
-});
-  </script>
+
 
 </body>
 </html>
