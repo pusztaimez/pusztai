@@ -2,7 +2,6 @@
     background-color: #fef5e8;
     padding-top: 40px;
     padding-bottom: 60px;
-    max-height: 300px;
   }
 
 .meheszet h1 {
@@ -64,7 +63,8 @@
       background-image: url(../images/meheszet.jpg);
       background-repeat: no-repeat;
       background-size: cover;
-      min-height: 40vh;
+      height: 40vh;
+      max-height: 310px;
     }
 
     .meheszet-content {
